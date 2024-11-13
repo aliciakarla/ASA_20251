@@ -1,7 +1,11 @@
 zone "asa.br"{
     type master;
     file "/etc/bind/db.asa.br";
+<<<<<<< HEAD
     allow-transfer {
+=======
+    allow-transfer{
+>>>>>>> dc04a89a42bc6cfa6f71c36ae82c81e10bda0f11
         127.0.0.1;
     };
 };

@@ -3,13 +3,24 @@
 ;
 $TTL	604800
 @	IN	SOA	ns.asa.br. root.asa.br. (
+<<<<<<< HEAD
 			      2		; Serial
+=======
+			      1		; Serial
+>>>>>>> dc04a89a42bc6cfa6f71c36ae82c81e10bda0f11
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 ;
+<<<<<<< HEAD
 @	   IN	NS	ns.
 @	   IN	A	127.0.0.1
 www    IN   A   10.25.1.153
 portal IN   CNAME  www
+=======
+@		IN	NS	ns.
+@		IN	A	127.0.0.1
+www		IN	A	10.0.0.19
+portal	IN	CNAME	www
+>>>>>>> dc04a89a42bc6cfa6f71c36ae82c81e10bda0f11
